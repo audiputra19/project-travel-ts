@@ -1,0 +1,286 @@
+{
+    "hotels": [
+        {
+            "id": 1,
+            "name": "Grand Hotel",
+            "location": {
+                "city": "Jakarta",
+                "district": "West Jakarta",
+                "country": "Indonesia"
+            },
+            "description": "A luxurious hotel located in the heart of the city with breathtaking views.",
+            "rating": 4.5,
+            "images": [
+                "https://cf.bstatic.com/xdata/images/hotel/max1024x768/551848138.jpg?k=d3445f5741deef5ad418fd9d9be0db1630bb18b41c32a8dda9d94d666a2e9543&o=&hp=1",
+                "https://cf.bstatic.com/xdata/images/hotel/max1024x768/551848135.jpg?k=05ee851f145e94142604940292d02528fc4015d7fa092729c342590040d71e37&o=&hp=1",
+                "https://cf.bstatic.com/xdata/images/hotel/max1024x768/551848140.jpg?k=4c16dc1a9e771fba841b02fefb4dcc0605bf5e7d0bf3cd65d094473876653be8&o=&hp=1"
+            ],
+            "price": 1000000,
+            "currency": "IDR",
+            "amenities": [
+              "Free Wi-Fi",
+              "Restaurant",
+              "Bar",
+              "Concierge",
+              "Gym"
+            ]
+        },
+        {
+          "id": 2,
+          "name": "Oceanview Resort",
+          "location": {
+            "city": "Bali",
+            "district": "Ubud",
+            "country": "Indonesia"
+          },
+          "description": "Experience stunning ocean views and first-class service.",
+          "rating": 4.8,
+          "images": [
+                "https://cf.bstatic.com/xdata/images/hotel/max1024x768/585259449.jpg?k=edbc320f77fadc7524513a03b2c62315da5c1eecba408f70ac5e884f814fff75&o=&hp=1",
+                "https://cf.bstatic.com/xdata/images/hotel/max1024x768/585259447.jpg?k=a3cbd60c5e0560ae4ad23e2c7b1a14c4532a235a38072266a0cad144a11cc506&o=&hp=1",
+                "https://cf.bstatic.com/xdata/images/hotel/max1024x768/585259451.jpg?k=40c1257c41f4d058159158913a82c45bf235639e7c00a53901f0f5eaad9b3e05&o=&hp=1"
+          ],
+          "price": 1500000,
+          "currency": "IDR",
+          "amenities": [
+            "Free Breakfast",
+            "Beach Access",
+            "Pool",
+            "Spa",
+            "Gym"
+          ]
+        },
+        {
+          "id": 3,
+          "name": "Mountain Retreat",
+          "location": {
+            "city": "Bandung",
+            "district": "Lembang",
+            "country": "Indonesia"
+          },
+          "description": "Nestled in the mountains, this retreat offers relaxation and adventure.",
+          "rating": 4.6,
+          "images": [
+                "https://cf.bstatic.com/xdata/images/hotel/max1024x768/568831577.jpg?k=1514e39fec8afc43026df0a7f0573753a9a388208201714badddc893435ce6b1&o=&hp=1",
+                "https://cf.bstatic.com/xdata/images/hotel/max1024x768/568831579.jpg?k=aa00d54dc1dd17c245655793935e5ab3296e20164b11034e9ec96e5427234f13&o=&hp=1",
+                "https://cf.bstatic.com/xdata/images/hotel/max1024x768/568831511.jpg?k=e2aa017a538e76a45a9417c8977a8196925977e93c37e001059964dfdff953f2&o=&hp=1"
+          ],
+          "price": 1800000,
+          "currency": "IDR",
+          "amenities": [
+            "Free Wi-Fi",
+            "Ski-in/Ski-out",
+            "Hiking Trails",
+            "Spa",
+            "Fireplace"
+          ]
+        },
+        {
+          "id": 4,
+          "name": "Cityscape Hotel",
+          "location": {
+            "city": "Jakarta",
+            "district": "Center Jakarta",
+            "country": "Indonesia"
+          },
+          "description": "Modern hotel with stunning city views and convenient access to shopping and dining.",
+          "rating": 4.7,
+          "images": [
+                "https://cf.bstatic.com/xdata/images/hotel/max1024x768/343415981.jpg?k=b633f3e6d1c156e2c26883fddc5ea358def505d979966806fe55b35c6bcd6408&o=&hp=1",
+                "https://cf.bstatic.com/xdata/images/hotel/max1024x768/333230481.jpg?k=68d7d653b667b0a5f3cc6e7b8c25436457a5e5a4daf05b38d91d2a0ca523831e&o=&hp=1",
+                "https://cf.bstatic.com/xdata/images/hotel/max1024x768/317801919.jpg?k=1513d2aa754e489c77dc3f64bef7ad77ff55c8ded60cfcec93ca2c041c9f1a25&o=&hp=1"
+          ],
+          "price": 3200000,
+          "currency": "IDR",
+          "amenities": [
+            "Free Wi-Fi",
+            "Restaurant",
+            "Bar",
+            "Concierge",
+            "Gym"
+          ]
+        },
+        {
+          "id": 5,
+          "name": "Lakeside Lodge",
+          "location": {
+            "city": "Puncak",
+            "district": "Ciloto",
+            "country": "Indonesia"
+          },
+          "description": "Enjoy a peaceful stay with beautiful lake views and alpine activities.",
+          "rating": 4.0,
+          "images": [
+                "https://cf.bstatic.com/xdata/images/hotel/max1024x768/352153541.jpg?k=f0bde8d76c067aeaec141d5521fc75b08382bf2f57bd1e989f967b7fc14455c4&o=&hp=1",
+                "https://cf.bstatic.com/xdata/images/hotel/max1024x768/568317220.jpg?k=e54a48584812122a0dd44337a8ba33ee05379675c33255ce2ee7fa7ee8b50d8f&o=&hp=1",
+                "https://cf.bstatic.com/xdata/images/hotel/max1024x768/568317220.jpg?k=e54a48584812122a0dd44337a8ba33ee05379675c33255ce2ee7fa7ee8b50d8f&o=&hp=1"
+          ],
+          "price": 950000,
+          "currency": "IDR",
+          "amenities": [
+            "Free Breakfast",
+            "Lake Access",
+            "Hiking Trails",
+            "Spa",
+            "Fireplace"
+          ]
+        },
+        {
+          "id": 6,
+          "name": "Desert Oasis",
+          "location": {
+            "city": "Bali",
+            "district": "Canggu",
+            "country": "Indonesia"
+          },
+          "description": "An exquisite desert retreat offering luxury and tranquility.",
+          "rating": 4.4,
+          "images": [
+                "https://cf.bstatic.com/xdata/images/hotel/max1024x768/444110125.jpg?k=c68238e5745f0fae49c2efee3711f16a1ec2633210581167edd7567096e764a8&o=&hp=1",
+                "https://cf.bstatic.com/xdata/images/hotel/max1024x768/444110076.jpg?k=d0c5a97e14f26d9462acff9067b20a5f750bb9ec0982bb69423e9b1d535f489d&o=&hp=1",
+                "https://cf.bstatic.com/xdata/images/hotel/max1024x768/544472816.jpg?k=00e6d9b2bc2cfc8f3c5ce5e2ef6e7b461508ea330821a97747ae902927b6a254&o=&hp=1"
+          ],
+          "price": 1500000,
+          "currency": "IDR",
+          "amenities": [
+            "Free Wi-Fi",
+            "Pool",
+            "Spa",
+            "Restaurant",
+            "Camel Rides"
+          ]
+        },
+        {
+          "id": 7,
+          "name": "Forest Escape",
+          "location": {
+            "city": "Bogor",
+            "district": "West Bogor",
+            "country": "Indonesia"
+          },
+          "description": "Surrounded by lush forests, this escape offers serenity and adventure.",
+          "rating": 4.7,
+          "images": [
+                "https://cf.bstatic.com/xdata/images/hotel/max1024x768/81373064.jpg?k=d20c853e05abf66f53e8c03852f25dfe52e00996e490ba4e8ec1afac8e852048&o=&hp=1",
+                "https://cf.bstatic.com/xdata/images/hotel/max1024x768/421786375.jpg?k=4e2fc157d45227d78a1b46a779fb2069a4717ba6b9b0bcb7c5c93b7c474ff6b0&o=&hp=1",
+                "https://cf.bstatic.com/xdata/images/hotel/max1024x768/81375803.jpg?k=52afb702db08f48e96834c13d963bb74c55fac40e6db50b527a90ba1cea7601e&o=&hp=1"
+          ],
+          "price": 1350000,
+          "currency": "IDR",
+          "amenities": [
+            "Free Wi-Fi",
+            "Hiking Trails",
+            "Spa",
+            "Fireplace",
+            "Restaurant"
+          ]
+        },
+        {
+          "id": 8,
+          "name": "Beachfront Villa",
+          "location": {
+            "city": "Puncak",
+            "district": "Cisarua",
+            "country": "Indonesia"
+          },
+          "description": "Private villas with direct beach access and stunning ocean views.",
+          "rating": 4.8,
+          "images": [
+                "https://cf.bstatic.com/xdata/images/hotel/max1024x768/37805736.jpg?k=2009639d69d92c64919e4f0d75fb140e7ad1c15d91b5cc0e3f99bf3b5f3d9d49&o=&hp=1",
+                "https://cf.bstatic.com/xdata/images/hotel/max1024x768/536077054.jpg?k=31abbd4d0cb0c292a1c41fd5c3e1d4361af71730b086a933bc5215f532c04c0e&o=&hp=1",
+                "https://cf.bstatic.com/xdata/images/hotel/max1024x768/37805758.jpg?k=4b0a94ed3f551ae021e95279fc5598777178f4ef3bd4a9b9d2be0ce80ffb5e61&o=&hp=1"
+          ],
+          "price": 1100000,
+          "currency": "IDR",
+          "amenities": [
+                "Free Breakfast",
+                "Beach Access",
+                "Pool",
+                "Spa",
+                "Private Villa"
+          ]
+        },
+        {
+          "id": 9,
+          "name": "Urban Haven",
+          "location": {
+            "city": "Bali",
+            "district": "Banyuwedang",
+            "country": "Indonesia"
+          },
+          "description": "A chic hotel in the heart of London, close to major attractions.",
+          "rating": 4.3,
+          "images": [
+                "https://cf.bstatic.com/xdata/images/hotel/max1024x768/116080734.jpg?k=9c1fc64493a9861e18709bebfdb0a9d736e9f50209b61e20fd751c22cf128976&o=&hp=1",
+                "https://cf.bstatic.com/xdata/images/hotel/max1024x768/82504908.jpg?k=916713c2aa7ac25271ca1f73c97d439db474dc2342b21a61fc38279702cb6e9e&o=&hp=1",
+                "https://cf.bstatic.com/xdata/images/hotel/max1024x768/89461235.jpg?k=4d3c5085f277ae24167c771fa877f0755958ecde3e56a6328a4b4062d8b990f3&o=&hp=1"
+          ],
+          "price": 4100000,
+          "currency": "IDR",
+          "amenities": [
+            "Free Wi-Fi",
+            "Restaurant",
+            "Bar",
+            "Concierge",
+            "Gym"
+          ]
+        },
+        {
+          "id": 10,
+          "name": "Historic Inn",
+          "location": {
+            "city": "Jakarta",
+            "district": "South Jakarta",
+            "country": "Indonesia"
+          },
+          "description": "A charming inn with historical significance and authentic Italian cuisine.",
+          "rating": 4.6,
+          "images": [
+                "https://cf.bstatic.com/xdata/images/hotel/max1024x768/290876165.jpg?k=528bea75d50f65cf1d1c7c3360a48d7e0e2921f0e14d9ac6933cd65da95cef43&o=&hp=1",
+                "https://cf.bstatic.com/xdata/images/hotel/max1024x768/85004586.jpg?k=28233acc6f95e49669daabb184d8eda77685de27f91aa2a20fcf8a920e973228&o=&hp=1",
+                "https://cf.bstatic.com/xdata/images/hotel/max1024x768/48150145.jpg?k=8da2e4333474d8bcbdfe6de44acd2c210881751c404862bed8c6f218200c80af&o=&hp=1"
+          ],
+          "price": 1750000,
+          "currency": "IDR",
+          "amenities": [
+            "Free Wi-Fi",
+            "Restaurant",
+            "Concierge",
+            "Garden",
+            "Spa"
+          ]
+        }
+    ],
+    "exploreHotels": [
+      {
+        "id": 1,
+        "name": "Jakarta",
+        "properties": 3200,
+        "images": "https://wallpapercave.com/wp/wp1865855.jpg"
+      },
+      {
+        "id": 2,
+        "name": "Bali",
+        "properties": 10136,
+        "images": "https://c4.wallpaperflare.com/wallpaper/282/810/421/ocean-summer-summertime-hotel-wallpaper-preview.jpg"
+      },
+      {
+        "id": 3,
+        "name": "Yogyakarta",
+        "properties": 1160,
+        "images": "https://wallpapercave.com/wp/wp4189999.jpg"
+      },
+      {
+        "id": 4,
+        "name": "Bandung",
+        "properties": 1405,
+        "images": "https://i0.wp.com/travelspromo.com/wp-content/uploads/2020/02/1-barisan-kios-Dony-Haryadi.jpg"
+      },
+      {
+        "id": 5,
+        "name": "Puncak",
+        "properties": 520,
+        "images": "https://e1.pxfuel.com/desktop-wallpaper/395/159/desktop-wallpaper-tea-garden-sylhet-backgrounds-tea-estate.jpg"
+      }
+    ]
+}
