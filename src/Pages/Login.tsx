@@ -11,9 +11,9 @@ const Login: FC = () => {
     const {fetchDataLogin, loading, error} = useApi();
     const navigate = useNavigate();
 
-    const handleLogin = () => {
+    const handleLogin = async () => {
         try {
-            fetchDataLogin(form.email, form.password);
+            await fetchDataLogin(form.email, form.password);
             navigate('/');
         } catch (error) {
             console.log(error);

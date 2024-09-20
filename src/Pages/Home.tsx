@@ -2,8 +2,11 @@ import { FC } from "react";
 import PopularDestination from "../Components/PopularDestination";
 import SearchButton from "../Components/SearchButton";
 import ExploreSlider from "../Components/ExploreSlider";
+import { useNavigate } from "react-router-dom";
 
 const Home: FC = () => {
+
+    const navigate = useNavigate();
     
     return (
         <div>
@@ -23,6 +26,7 @@ const Home: FC = () => {
                         <button 
                             type="button"
                             className="bg-color-base text-white py-3 px-6 rounded-full hover:bg-color-baseHover"
+                            onClick={() => navigate('/booking')}
                         >
                             Book Now
                         </button>

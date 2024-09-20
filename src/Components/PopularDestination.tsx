@@ -18,7 +18,7 @@ const PopularDestination: FC = () => {
                     >
                         <div>
                             <img
-                                src={hotel.images[0]}
+                                src={hotel.images[0].image}
                                 className="h-[180px] w-full object-cover rounded-t-xl"
                             />
                         </div>
@@ -27,7 +27,7 @@ const PopularDestination: FC = () => {
                                 <p className="text-lg font-semibold dark:text-white">{hotel.name}</p>
                             </div>
                             <div>
-                                <p className="text-sm text-gray-400">{hotel.location.city}<span>, {hotel.location.district}</span></p>
+                                <p className="text-sm text-gray-400">{hotel.city}<span>, {hotel.district}</span></p>
                             </div> 
                             <div className="pt-3">
                                 <StarRating rating={hotel.rating} maxStars={5}/>

@@ -9,14 +9,14 @@ export const Gallery: FC<GalleryType> = ({ hotel }) => {
     
     return (
         <div className="grid grid-cols-2 gap-3">
-            {hotel?.images.map((photo: string, i: number) => {
+            {hotel?.images.map((photo, i) => {
                 return (
                     <div 
                         key={i}
                         className="cursor-pointer"
                     >
                         <img 
-                            src={photo} 
+                            src={photo.image} 
                             alt="hotel"  
                             className="w-full h-40 object-cover rounded-xl"
                         />

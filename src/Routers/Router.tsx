@@ -7,6 +7,7 @@ import Profile from "../Pages/Profile";
 import Details from "../Pages/Details";
 import Login from "../Pages/Login";
 import { ProtectedRoute } from "./ProtectedRoute";
+import Booking from "../Pages/Booking";
 
 const Router: FC = () => {
     let element = [
@@ -35,6 +36,10 @@ const Router: FC = () => {
         {
             path: '/login',
             element: <Login/>
+        },
+        {
+            path: '/booking',
+            element: <Booking/>
         }
     ];
 

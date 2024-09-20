@@ -53,7 +53,7 @@ const Nav: FC = () => {
                                 ? (<Sun/>) 
                                 : (<Moon/>)}
                             </div>
-                            <div className="border w-[250px] rounded-full">
+                            <div className="border w-[250px] rounded-full dark:border-dark-second">
                                 <SearchButton/>
                             </div>
                         </div>

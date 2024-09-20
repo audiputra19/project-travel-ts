@@ -9,9 +9,9 @@ interface FacilitiesType {
 export const Facilities: FC<FacilitiesType> = ({ hotel }) => {
     return (
         <div className="space-y-5">
-            {hotel?.amenities.map((facility: string, i: number) => {
+            {hotel?.amenities.map((facility) => {
                 let icon = null;
-                switch (facility) {
+                switch (facility.amenity) {
                     case 'Free Wi-Fi':
                         icon = <Wifi/>
                         break;
@@ -50,7 +50,7 @@ export const Facilities: FC<FacilitiesType> = ({ hotel }) => {
                 return (
                     <div className="flex gap-3">
                         <div className="text-color-base">{icon}</div>
-                        <p className="text-gray-500">{facility}</p>
+                        <p className="text-gray-500">{facility.amenity}</p>
                     </div>
                 )
             })}

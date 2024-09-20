@@ -35,7 +35,7 @@ const Details: FC = () => {
                 </div>
             </div>
             <img
-                src={hotel?.images[0]}
+                src={hotel?.images[0].image}
                 className="w-full h-[350px] object-cover"
             />
             <div className="absolute w-full h-[500px] top-0 mt-[300px] rounded-t-[30px] bg-white p-5 dark:bg-dark-main dark:text-white">
@@ -46,9 +46,9 @@ const Details: FC = () => {
                 </div>
                 <div className="mt-3 flex gap-2">
                     <div className="text-red-500"><MapPin/></div>
-                    <p className="text-gray-500 dark:text-white">{hotel?.location.city},</p>
-                    <p className="text-gray-500 dark:text-white">{hotel?.location.district},</p>
-                    <p className="text-gray-500 dark:text-white">{hotel?.location.country}</p>
+                    <p className="text-gray-500 dark:text-white">{hotel?.city},</p>
+                    <p className="text-gray-500 dark:text-white">{hotel?.district},</p>
+                    <p className="text-gray-500 dark:text-white">{hotel?.country}</p>
                 </div>
                 <div className="mt-7">
                     <FilterCategory

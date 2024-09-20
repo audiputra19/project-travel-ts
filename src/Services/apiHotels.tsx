@@ -23,7 +23,7 @@ export const ApiProvider: FC<{ children: ReactNode }> = ({ children }) => {
     const fetchDataHotels = async () => {
         setLoading(true);
         try {
-            const response = await axiosInstance.get<Hotels[]>('/hotels');
+            const response = await axiosInstance.get<Hotels[]>('/all-hotel');
             setHotels(response.data);
         } catch (error) {
             setError((error as Error).message);
@@ -37,7 +37,7 @@ export const ApiProvider: FC<{ children: ReactNode }> = ({ children }) => {
     const fetchDataExploreHotels = async () => {
         setLoading(true);
         try {
-            const response = await axiosInstance.get<ExploreHotels[]>('/exploreHotels');
+            const response = await axiosInstance.get<ExploreHotels[]>('/all-explore');
             setExploreHotels(response.data);
         } catch (error) {
             setError((error as Error).message);
